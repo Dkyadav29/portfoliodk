@@ -24,7 +24,7 @@ export default function Hero() {
       {/* Foreground Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
-          Hi, I'm <span className="text-amber-400">Dablu Kumar</span>
+          Hi, I&apos;m <span className="text-amber-400">Dablu Kumar</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-indigo-100 mb-4 drop-shadow-md">

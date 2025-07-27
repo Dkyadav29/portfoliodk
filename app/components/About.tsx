@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white">
@@ -9,7 +11,7 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-bold text-slate-900 mb-6">About Me</h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              I'm a passionate Software Developer currently working at Softkiwi Technology in Gurgaon, 
+              I&#39;m a passionate Software Developer currently working at Softkiwi Technology in Gurgaon, 
               with a strong focus on React Native development and mobile app architecture.
             </p>
             <p className="text-lg text-slate-600 mb-10 leading-relaxed">
@@ -58,9 +60,11 @@ export default function About() {
           {/* Profile Image Section */}
           <div className="relative">
             <div className="overflow-hidden rounded-2xl shadow-lg">
-              <img 
+              <Image 
                 src="https://readdy.ai/api/search-image?query=Professional%20software%20developer%20working%20on%20mobile%20app%20development%2C%20modern%20office%20environment%2C%20person%20coding%20on%20laptop%20with%20mobile%20phone%20displaying%20app%20interface%2C%20clean%20workspace%2C%20professional%20lighting%2C%20technology%20focused%20atmosphere%2C%20modern%20and%20minimalist%20style%2C%20indigo%20and%20purple%20color%20scheme&width=600&height=800&seq=about-img-002&orientation=portrait"
                 alt="Dablu Kumar - Software Developer"
+                width={600}
+                height={800}
                 className="w-full h-[28rem] object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent"></div>
