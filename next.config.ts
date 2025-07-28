@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: {}, // previously set to `true`, which caused a warning
+    serverActions: {},
   },
   images: {
     domains: ['readdy.ai'],
