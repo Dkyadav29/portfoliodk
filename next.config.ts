@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   experimental: {
-    serverActions: true
-  }
-}
+    serverActions: {}, // previously set to `true`, which caused a warning
+  },
+  images: {
+    domains: ['readdy.ai'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
